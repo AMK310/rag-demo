@@ -36,6 +36,8 @@ cp .env.example .env
 > 🔑 **Clé Gemini gratuite** : [aistudio.google.com/app/apikey](https://aistudio.google.com/app/apikey)  
 > Elle sert **uniquement** à la génération de la réponse finale. Les étapes 1 à 5 tournent **100% en local**.
 
+> 👥 **Astuce classe (quota) :** le quota gratuit Gemini est **par clé**. Si toute la classe partage une seule clé, on dépasse le quota très vite. **Chaque étudiant crée SA propre clé.** Les notebooks utilisent `gemini-flash-lite-latest` (modèle léger, quota plus élevé). Alternative encore plus généreuse : [Groq](https://console.groq.com) (`from langchain_groq import ChatGroq`).
+
 ---
 
 ## 📓 Utilisation
